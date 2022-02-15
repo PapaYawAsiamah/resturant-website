@@ -1,0 +1,73 @@
+ul {
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+body {
+    margin: 120px;
+    background-image: url(images/5cf2660af5f4214def7166dc7a7c8062.jpg);
+}
+
+ul li {
+    background-color: yellow;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200px;
+}
+
+.hero {
+    grid-area: hero;
+    min-height: 400px;
+    background: white url(images/taco.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-sizing: inherit;
+    width: 750px;
+    height: 460px;
+}
+
+div.cta-cta1 {
+    position: absolute;
+    right: 123px;
+    top: 173px;
+    text-align: center;
+    background-color: yellow;
+    padding: 80px;
+}
+
+p.price {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+div.cta-cta2 {
+    position: absolute;
+    right: 123px;
+    top: 460px;
+    text-align: center;
+    background-color: yellow;
+    padding: 80px;
+    padding-top: 85px; padding-left: 64px; }
+
+    h1.dog{background-color: yellow; padding: 20px; font-size: xx-large; margin: 0;}
+    p.cat{background-color: yellow; padding: 15px;}
+    section.v{display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))}
+        div.As{background-color: cadetblue; text-align: center; margin-top: 50px;}
+        section.taco{margin-top: 60px; display: inline-flex;
+    }
+    p.AI{
+        font-size: xx-large; color: red;
+    }
+    #cont{font-size: xx-large; font-weight: bolder; }
+    #or{font-size: xx-large; font-weight: bolder}
+    footer{background-color: yellow; text-align: center;}
